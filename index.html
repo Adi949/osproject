@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Replacement Algorithm</title>
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+  <!-- <form action=""> -->
+  <div class="wrapper">
+    
+      <h1>Page Replacement Algorithm</h1>
+      <input type="text" id="frames" placeholder="Enter No of frames">
+        <!-- <label for="reference_string">hello</label> -->
+        <input type="text" id="reference_string" placeholder="References: ">
+        
+      
+     <div>
+     <button onclick="push()" id="btn">ADD</button>
+
+      <button onclick="Clear()" id="btn">CLEAR</button>
+      <button onclick=" myfun()"id="btn">RUN</button>
+      </div>
+
+      <P>INPUTS</P>
+      <div id="demo">
+
+</div>
+
+<div class="table">
+ <table class="t" border="2px" >
+        <thead>
+          <tr id="tableHead"></tr>
+        </thead>
+        <tbody id="tablebody"></tbody>
+      </table>
+</div>
+<div class="hf-ratio">
+<p id="fault"></p>
+<p id="fault ratio"></p>
+<p id="hit ratio"></p>
+</div>
+</div>
+</form>
+  <div class="main-img"></div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
